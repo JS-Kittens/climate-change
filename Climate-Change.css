@@ -1,62 +1,437 @@
-body {
-    background-image: url("earth.jpg");
+/*Jessica*/
+
+body.Moreinfobody{
+  background-color: #00ff99;
+}
+ul.Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-h1 {
-    color: #cccccc;
-    text-align: center;
+li {
+    float: left;
 }
 
-p1 {
-    font-family: verdana;
-    font-size: 20px;
-    color: #cccccc
-}
-
-p2 {
-    font-family: verdana;
-    font-size: 20px;
-    color: #cccccc
-}
-
-p3 {
-    font-family: verdana;
-    font-size: 20px;
-    color: #cccccc
-}
-
-body {margin:0;}
-
-.topnav {
-  overflow: hidden;
-  background-color: #cccccc;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #808080;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #808080;
-  color: black;
-}
-
-.topnav a.active {
-    background-color: #808080;
+li a {
+    display: block;
     color: white;
-}
-button {
-    display:inline-block;
-    margin:0 auto;
-    width: 200px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.button-container {
+li a:hover {
+    background-color: #111;
+}
+
+h1.Moreinfoheading{
+  text-align: center;
+  color: white;
+  font-size: 40px;
   text-align: center;
 }
+
+p.Moreinfoparagraph{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+/*check tommororw, make less general*/
+
+img {
+align-self: center;
+margin: 30px;
+}
+
+button.Whatisitbutton{
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  box-shadow: 0 9px #999;
+}
+button.Whatisitbutton:hover {background-color: #000099}
+button.Whatisitbutton:active {
+  background-color: #000099;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button.Causesofbutton{
+  background-color: #ff9933;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+}
+button.Causesofbutton:hover{background-color: #cc6600}
+button.Causesofbutton:active {
+  background-color: #cc6600;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.Effectsofbutton{
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+}
+button.Effectsofbutton:hover{background-color: #b30000}
+button.Effectsofbutton:active {
+  background-color: #b30000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.WhatcanIdobutton{
+  background-color: #006600;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+}
+button.WhatcanIdobutton:hover {background-color: #003300}
+button.WhatcanIdobutton:active {
+  background-color: #003300;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body.Whatisitbody {
+  background-color: #00ff99;
+}
+h1.Whatisitheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+p.Whatisitparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+ul{
+  color: white;
+  font-size: 25px;
+}
+
+body.Causesbody {
+  background-color: #00ff99;
+}
+h1.Causesheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+p.Causesparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+ul.Causeslist{
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+body.Effectsbody {
+  background-color: #00ff99;
+}
+h1.Effectsheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+p.Effectsparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+body.WhatcanIdobody {
+  background-color: #00ff99;
+}
+h1.WhatcanIdoheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+p.WhatcanIdoparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*Mandy*/
+    body.climate-change {
+        background-image: url("earth.jpg");
+    }
+
+    body.howtoprevent {
+        background-image: url("prevent.jpg");
+    }
+
+    h1 {
+        color: #cccccc;
+        text-align: center;
+    }
+
+    p1 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #cccccc
+    }
+
+    p2 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #cccccc
+    }
+
+    p3 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #cccccc
+    }
+
+    p4 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p5 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p6 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p7 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p8 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p9 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p10 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p11 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p12 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p13 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p14 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p15 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p16 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p17 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p18 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    p19 {
+        font-family: verdana;
+        font-size: 22px;
+        color: #cccccc;
+    }
+
+    p20 {
+        font-family: verdana;
+        font-size: 20px;
+        color: #808080;
+    }
+
+
+    body {
+      margin:0;
+    }
+
+    h3{
+      color: #cccccc;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    article{
+      padding: 30px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #cccccc;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #808080;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #808080;
+      color: black;
+    }
+
+    .topnav a.active {
+        background-color: #808080;
+        color: white;
+    }
+    button {
+        display:inline-block;
+        margin:0 auto;
+        width: 200px;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+/*Jocelyn 8-1*/
+
+    body.gamepage{
+      background-color: #00ff99;
+    }
+
+    body.gamepage button{
+      color: white;
+      border: none;
+      font-size: 20px;
+      border-radius: 50%;
+      padding: 32px;
+      width:200px;
+      box-shadow: 0 9px #999;
+    }
+
+    #choiceA{
+      background-color: blue;
+    }
+
+    #choiceB{
+      background-color: purple;
+    }
+
+    button:hover {
+      background-color: #000099;
+    }
+
+    button:active {
+      background-color: #000099;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+      }
+
+    #storypic {
+        display: inline-block;
+        float: right;
+        margin: 30px;
+        width: 400px;
+        height: 400px;
+        overflow: auto;
+        border-style: hidden;
+    }
+
+    .storytext{
+      display: inline-block;
+      float: left;
+      margin: 30px;
+      width: 400px;
+      height: 400px;
+      overflow: auto;
+      border-style: hidden;
+    }
+
+    .storysel{
+      align-self: center;
+      display: inline-block;
+      border-style: dotted;
+      border-color: black;
+      float: inline-end;
+      margin: 30px;
+      width: 800px;
+      height: 200px;
+      border-style: hidden;
+    }
