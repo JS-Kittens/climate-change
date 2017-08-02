@@ -1,0 +1,62 @@
+body {
+    background-image: url("earth.jpg");
+}
+
+h1 {
+    color: #cccccc;
+    text-align: center;
+}
+
+p1 {
+    font-family: verdana;
+    font-size: 20px;
+    color: #cccccc
+}
+
+p2 {
+    font-family: verdana;
+    font-size: 20px;
+    color: #cccccc
+}
+
+p3 {
+    font-family: verdana;
+    font-size: 20px;
+    color: #cccccc
+}
+
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #808080;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #808080;
+    color: white;
+}
+button {
+    display:inline-block;
+    margin:0 auto;
+    width: 200px;
+}
+
+.button-container {
+  text-align: center;
+}
