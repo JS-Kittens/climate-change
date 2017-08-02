@@ -6,28 +6,30 @@
     <link rel="stylesheet" type="text/css" href="Climate-Change.css">
   </head>
 
-  <body>
-    <style>
-      #storytext {
-          border-style: outset;
-          float: left;
-          margin: 10px 10px 0 0;
+  <body class="gamepage">
+    <script src="Climate-Change.js"></script>
 
-      }
-
-      #pic{
-        border-style: outset;
-        float: right;
-        margin: 0 0 10px 10px;
-
-      }
-    </style>
-
-    <div>
-        <p id="storytext">Science Rocks ;)</p>
-
-        <iframe src="https://www.google.com"></iframe>
-
-
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">More Info</a>
+      <a href="#contact">Images n' Videos</a>
+      <a href="#about">What can I do</a>
     </div>
+
+    <article class="storytext">
+        <p id="storywords">fhgkljdhxgkhkjfhkldghklx</p>
+    </article>
+
+    <aside class="picture">
+      <img id="storypic" src="prevent.jpg" alt="Image">
+    </aside>
+
+    <section class="storysel">
+      <button type="submit" id="choiceA" onclick="nextA()">test</button>
+      <button type="submit" id="choiceB" onclick="nextB()">test</button>
+    </section>
+<!--<div>
+        <p class="storytext">Science Rocks ;)</p>
+        <iframe  class="storytext" src="Climate-Change.html" width="555" height="200"></iframe>
+    </div>-->
 </html>
