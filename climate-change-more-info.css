@@ -1,0 +1,226 @@
+body.Moreinfobody{
+  background-color: #00ff99;
+}
+ul.Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #bfbfbf;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #a6a6a6;
+}
+
+h1.Moreinfoheading{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.Moreinfoparagraph{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*check tommororw, make less general*/
+
+img.Globepicture {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+button.Whatisitbutton{
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  box-shadow: 0 9px #999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button.Whatisitbutton:hover {background-color: #000099}
+button.Whatisitbutton:active {
+  background-color: #000099;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img.Greenhouseeffect {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+
+
+button.Causesofbutton{
+  background-color: #ff9933;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button.Causesofbutton:hover{background-color: #cc6600}
+button.Causesofbutton:active {
+  background-color: #cc6600;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.Effectsofbutton{
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button.Effectsofbutton:hover{background-color: #b30000}
+button.Effectsofbutton:active {
+  background-color: #b30000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.WhatcanIdobutton{
+  background-color: #006600;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 32px;
+  width:200px;
+  text-align: center;
+  box-shadow: 0 9px #999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button.WhatcanIdobutton:hover {background-color: #003300}
+button.WhatcanIdobutton:active {
+  background-color: #003300;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body.Whatisitbody {
+  background-color: #00ff99;
+}
+h1.Whatisitheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.Whatisitparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul{
+  color: white;
+  font-size: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body.Causesbody {
+  background-color: #00ff99;
+}
+h1.Causesheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.Causesparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul.Causeslist{
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img.Treestump{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+body.Effectsbody {
+  background-color: #00ff99;
+}
+h1.Effectsheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.Effectsparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img.Extremeweatherpicture{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+body.WhatcanIdobody {
+  background-color: #00ff99;
+}
+h1.WhatcanIdoheading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.WhatcanIdoparagraph{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img.WhatcanIdoimg{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
