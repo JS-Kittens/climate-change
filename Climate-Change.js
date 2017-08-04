@@ -87,7 +87,7 @@ function nextA() {
 
     else if (page===2){
         page=0;
-        nextA;
+        nextA();
     }
 
     else if (page===3){
