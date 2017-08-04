@@ -40,7 +40,7 @@ function nextA() {
     }
     else if (page===2){
       document.getElementById("storywords").innerHTML=(`<div>You have three best freinds named Danny, Adison, and Freya.
-       You live right next to eachother and you go to the same school.<br><br> One day Danny said, "Wouldn't it be cool if we
+       You live right next to each other and you go to the same school.<br><br> One day Danny said, "Wouldn't it be cool if we
        all went to school together?"<br><br> What do you say?
        </div>`);
 
@@ -65,7 +65,6 @@ function nextA() {
     }
 
     else if(page===4){
-      debugger;
       page=0;
       nextA();
     }
@@ -83,11 +82,12 @@ function nextA() {
       document.getElementById("choiceA").innerHTML="Start Over";
       document.getElementById("choiceB").innerHTML="End Game";
 
-      page++;
+      page+=3;
     }
 
     else if (page===2){
         page=0;
+        nextA;
     }
 
     else if (page===3){
