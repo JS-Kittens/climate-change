@@ -86,8 +86,7 @@ function nextA() {
     }
 
     else if (page===2){
-        page=0;
-        nextA();
+        window.close();
     }
 
     else if (page===3){
